@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal SOS - Подай ръка на животно в беда</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">Animal SOS</a>
+      </h1>
+
+      <select name="language" class="lang-switch">
+
+        <option value="english">Български</option>
+        <option value="french">Английски</option>
+        <option value="spanish">Испански</option>
+
+      </select>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">Animal SOS</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Начало</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>За Animal SOS</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Услуги</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#donate" class="navbar-link" data-nav-link>
+              <span>Дарение</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#event" class="navbar-link" data-nav-link>
+              <span>Събития</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>
+              <span>Контакти</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-primary">
+          <span>Дарение</span>
+
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-white.png" width="32" height="7" alt="Wavy line">
+
+            <span>Добре дошли в Animal SOS</span>
+          </p>
+
+          <h2 class="h1 hero-title">
+            Подай ръка на <strong>животно в нужда</strong>
+          </h2>
+
+          <p class="hero-text">
+            Всяко едно животно заслужава да изживее живота си достойно - в естествена среда, на свеж въздух, слънце и зеленина.
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Дарение</span>
+
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Подслонете ги</h3>
+
+                <p class="item-text">
+                  Спасете животно в беда! Една улична котка е добро начало!
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Пестете водата</h3>
+
+                <p class="item-text">
+                  Водата е едно от най - ценните неща, както за нас, хората, така и за животните!
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Пазете дърветата</h3>
+
+                <p class="item-text">
+                  Дърветата са белия дроб на планетата, както и убежище на много животни!
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Пазете природата</h3>
+
+                <p class="item-text">
+                  Бъдете примерни граждани и пазете природата чиста. Животните ще го оценят!
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+
+            <h2 class="deco-title">За нас</h2>
+
+            <img src="./assets/images/deco-img.png" width="58" height="261" alt="" class="deco-img">
+
+            <div class="banner-row">
+
+              <div class="banner-col">
+                <img src="./assets/images/about-banner-1.jpg" width="315" height="380" loading="lazy" alt="Tiger"
+                  class="about-img w-100">
+
+                <img src="./assets/images/about-banner-2.jpg" width="386" height="250" loading="lazy" alt="Vol"
+                  class="about-img about-img-2 w-100">
+              </div>
+
+              <div class="banner-col">
+                <img src="./assets/images/about-banner-3.jpg" width="250" height="277" loading="lazy" alt="Elephant"
+                  class="about-img about-img-3 w-100">
+
+                <img src="./assets/images/about-banner-4.jpg" width="315" height="380" loading="lazy" alt="Deer"
+                  class="about-img w-100">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">
+              <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+              <span>Защо да изберете нас?</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              Подай ръка, за да спасиш <strong>естествения им хабитат</strong>
+            </h2>
+
+            <ul class="tab-nav">
+
+              <li>
+                <button class="tab-btn active">Мисията ни</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Визията ни</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Следващ план</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content">
+
+              <p class="section-text">
+                Започни с простото действие да подадеш ръка и се присъедини към усилията ни за спасяване на естествените хабитати на животните – само така можем да обезпечим тяхната сигурност и бъдещето на нашата планета.
+              </p>
+
+              <ul class="tab-list">
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Дарения за храна</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Дарения за паркове и резервати</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Дарения за прясна вода</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Дарения за медицинска помощ</p>
+                </li>
+
+              </ul>
+
+              <button class="btn btn-secondary">
+                <span>Научи повече за нас</span>
+
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <div class="cta-content">
+            <h2 class="h2 section-title">110+ доверени партньора</h2>
+
+            <button class="btn btn-outline">
+              <span>Стани партньор</span>
+
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.jpg" width="520" height="228" loading="lazy" alt="Noserog"
+              class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" style="background-image: url('./assets/images/service-map.png')">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>С какво се занимаваме?</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            Ние работим усърдно, за да <strong>спасим животните в беда</strong>
+          </h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Естествен хабитат</h3>
+
+                <p class="card-text">
+                  Ние се грижим за техния дом!
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Виж повече</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">По целия свят</h3>
+
+                <p class="card-text">
+                 Пазим ги от бракониери по цял свят!
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Виж повече</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="flower-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Залесяване</h3>
+
+                <p class="card-text">
+                 Едно спасено животно = едно дърво!
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Виж повече</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Чисти океани</h3>
+
+                <p class="card-text">
+                  Спомагаме за чистотата на флората и фауната.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Виж повече</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DONATE
+      -->
+
+      <section class="section donate" id="donate">
+        <div class="container">
+
+          <ul class="donate-list">
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/donate-1.jpg" width="520" height="325" loading="lazy" alt="Kangaroo"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Дарени</span>
+
+                      <data value="2560">2560 лв.</data>
+                    </p>
+
+                    <data class="progress-value" value="86">86%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Подай ръка на кенгуратата</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Цел</span>
+
+                      <data class="green" value="3000">3000 лв.</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Дари</span>
+
+                      <data class="yellow" value="100">100 лв.</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Остават</span>
+
+                      <data class="cyan" value="440">440 лв.</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Дари</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/donate-2.jpg" width="520" height="325" loading="lazy" alt="Noserog"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Дарени</span>
+
+                      <data value="5600">5600 лв.</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Подай ръка на нусорозите</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Цел</span>
+
+                      <data class="green" value="8000">8000 лв.</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Дари</span>
+
+                      <data class="yellow" value="200">200 лв.</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Остават</span>
+
+                      <data class="cyan" value="2400">2400 лв.</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Дари</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/donate-3.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Дарени</span>
+
+                      <data value="3500">3500 лв.</data>
+                    </p>
+
+                    <data class="progress-value" value="84">84%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Подай ръка на павианите</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Цел</span>
+
+                      <data class="green" value="4000">4000 лв.</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Дари</span>
+
+                      <data class="yellow" value="100">100 лв.</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Остават</span>
+
+                      <data class="cyan" value="500">500 лв.</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Дари</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/donate-4.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Дарени</span>
+
+                      <data value="7000">7000 лв.</data>
+                    </p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Подай ръка на птиците</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Цел</span>
+
+                      <data class="green" value="8500">8500 лв.</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Дари</span>
+
+                      <data class="yellow" value="200">200 лв.</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Остават</span>
+
+                      <data class="cyan" value="1500">1500 лв.</data>
+                    </p>
+
+                  </div>
+
+                  <button class="btn btn-secondary">
+                    <span>Дари</span>
+
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #OTZIVI
+      -->
+
+      <section class="testi">
+
+        <div class="testi-content">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>Отзивите за нас</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            Какво казват хората за <strong>нашата организация</strong>
+          </h2>
+
+          <div class="testi-card">
+
+            <figure class="card-avatar">
+              <img src="./assets/images/testi-avatar.png" width="60" height="60" loading="lazy" alt="Ivan Hristov">
+            </figure>
+
+            <div>
+              <blockquote class="testi-text">
+                Тази организация е вдъхновяващ пример за преданост към животните. Тя има силна стратегия, много сътрудничества в целия свят и постига забележителни резултати. Истински герои!
+              </blockquote>
+
+              <h3 class="testi-name">Иван Христов</h3>
+
+              <p class="testi-title">Бизнес мениджър</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <figure class="testi-banner">
+          <img src="./assets/images/testi-banner.jpg" width="960" height="846" loading="lazy" alt="Dog"
+            class="img-cover">
+        </figure>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PARTNER
+      -->
+
+      <section class="section partner">
+        <div class="container">
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-1.png" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="gray">
+
+            <img src="./assets/images/partner-1-active.png" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-2.png" width="163" height="55" loading="lazy" alt="Non Profit Agency"
+              class="gray">
+
+            <img src="./assets/images/partner-2-active.png" width="163" height="55" loading="lazy"
+              alt="Non Profit Agency" class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-3.png" width="149" height="55" loading="lazy" alt="Rise Hand Help Us"
+              class="gray">
+
+            <img src="./assets/images/partner-3-active.png" width="149" height="55" loading="lazy"
+              alt="Rise Hand Help Us" class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-4.png" width="169" height="58" loading="lazy" alt="Helping" class="gray">
+
+            <img src="./assets/images/partner-4-active.png" width="169" height="58" loading="lazy" alt="Helping"
+              class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-5.png" width="211" height="55" loading="lazy" alt="Poor Fund Organization"
+              class="gray">
+
+            <img src="./assets/images/partner-5-active.png" width="211" height="55" loading="lazy"
+              alt="Poor Fund Organization" class="color">
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event" id="event">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>Новини и събития</span>
+
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+          </p>
+
+          <h2 class="h2 section-title">
+            Нашите най-популярни каузи <strong>за животните</strong>
+          </h2>
+
+          <ul class="event-list">
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="01-05">
+                  <span class="month">Яну</span>
+
+                  <span class="date">20</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Събитие</p>
+
+                    <h3 class="card-title">Подари надежда на мечка в нужда!</h3>
+
+                    <p class="card-text">
+                      Събитието се проведе на 20 януари 2023 г. В него се включиха членовете на Animal SOS, както и...
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>Прочети още</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="02-23">
+                  <span class="month">Фев</span>
+
+                  <span class="date">13</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Новини</p>
+
+                    <h3 class="card-title">Известна компания стана най-големият дарител в историята на Animal SOS</h3>
+
+                    <p class="card-text">
+                      Известна компания стана част от семейството на Animal SOS. Тя дари над 100 000 лв. в помощ на...
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>Прочети още</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="03-27">
+                  <span class="month">Мар</span>
+
+                  <span class="date">30</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Събитие</p>
+
+                    <h3 class="card-title">Animal SOS организира благотворителна кампания в полза на папагалите</h3>
+
+                    <p class="card-text">
+                      От 30 март 2023г. до 01.08.2023г. Animal SOS организира благотворителна кампания в помощ на...
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>Прочети още</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-secondary">
+            <span>Виж още събития</span>
+
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #INSTA POST
+      -->
+
+      <section class="insta-post">
+
+        <ul class="insta-post-list">
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-1.jpg" width="320" height="300" loading="lazy" alt="Lion"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-2.jpg" width="320" height="300" loading="lazy" alt="Deer"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-3.jpg" width="320" height="300" loading="lazy" alt="Wild Bear"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-4.jpg" width="320" height="300" loading="lazy" alt="Deer"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="#" class="insta-post-link">
+              <img src="./assets/images/insta-5.jpg" width="320" height="300" loading="lazy" alt="Horses"
+                class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Условия на сайта</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Политики за поверителност</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
